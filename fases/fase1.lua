@@ -68,7 +68,7 @@ love.graphics.print ("MEIO", 265, 520)
     end
 
     -- Botao vermelho
-    love.graphics.setColor(1,0,1)
+    love.graphics.setColor(1,0,0)
     love.graphics.rectangle("fill" ,faseButtonposx,faseButtonposy   + 225,larguraBotaoFases,alturaBotaoFases)
 
     
