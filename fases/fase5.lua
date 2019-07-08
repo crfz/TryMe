@@ -39,7 +39,7 @@ love.graphics.print ("o som estava tão alto que a música do tango. provocava e
     love.graphics.rectangle("fill" ,fase5Buttonposx,fase5Buttonposy ,larguraBotaoFases,alturaBotaoFases)
     love.graphics.setColor(0,0,0) 
     love.graphics.setFont(love.graphics.newFont(20))
-    love.graphics.print("Paciencia", 880, 125)
+    love.graphics.print("Paciência", 880, 125)
     
     buttonPaciencia = love.mouse.getX() > fase5Buttonposx and love.mouse.getY() > fase5Buttonposy  and
        love.mouse.getX() < fase5Buttonposx + larguraBotaoFases  and love.mouse.getY() < fase5Buttonposy  + alturaBotaoFases
