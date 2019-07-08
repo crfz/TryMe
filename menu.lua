@@ -12,10 +12,10 @@ function menuUpdate(dt)
 end
 
 function menuDraw()
-  love.graphics.setColor(255,255,255)
+  love.graphics.setColor(1,1,1)
   love.graphics.draw(imgMenu,330,20)
     if love.keyboard.isDown("r") then
-      love.graphics.setColor(255,255,255)
+      love.graphics.setColor(1,1,1)
       love.graphics.print("X" ..love.mouse.getX().."Y".. love.mouse.getY(), 10, 10)
     end
 
