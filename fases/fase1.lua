@@ -15,7 +15,7 @@ end
 
 function fase1Draw()
   if love.keyboard.isDown("r") then
-    love.graphics.setColor(255,255,255)
+    love.graphics.setColor(1,1,1)
     love.graphics.setFont(love.graphics.newFont(20))
     love.graphics.print("X" ..love.mouse.getX().."Y".. love.mouse.getY(), 10, 10)
   end
@@ -32,7 +32,7 @@ love.graphics.setFont(love.graphics.newFont(100))
 love.graphics.print ("MEIO", 265, 520)
 
 
-   -- love.graphics.draw(imagem,20,20)
+  
   
    -- Botao Azul
     love.graphics.setColor(0,0,1)
